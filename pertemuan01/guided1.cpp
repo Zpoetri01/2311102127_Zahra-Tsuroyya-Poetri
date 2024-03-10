@@ -43,5 +43,5 @@ int main()
     default:
         cout << "Error! Operator is not correct";
     } // statement switch selesai
-    return 0; mengembalikan nilai nol 
+    return 0; mengembalikan nilai ke nol 
 }
