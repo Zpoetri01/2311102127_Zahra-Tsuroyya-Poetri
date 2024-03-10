@@ -1,6 +1,6 @@
-#include <iostream>
-#include <array>
-using namespace std;
+#include <iostream> // untuk menjalankan operasi input dan output 
+#include <array> // untuk mendefinisikan fungsi array 
+using namespace std; 
 
 int main() {
 // Deklarasi dan inisialisasi array
