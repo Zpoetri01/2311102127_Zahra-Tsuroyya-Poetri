@@ -178,6 +178,7 @@ int main() {
 ```
 #### Output:
 ![Screenshot (1254)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/7ca31cb3-1707-441e-90f1-a9bea2117855)
+![Screenshot (1255)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/8f081455-0a4c-4e90-ba65-6d9217387123)
 
 
 Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
