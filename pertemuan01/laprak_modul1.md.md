@@ -177,7 +177,8 @@ int main() {
 }
 ```
 #### Output:
-![image](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/0ef52f30-dcae-4752-8b9a-4ad9cb31351c)
+![Screenshot (1264)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/6ec64f1f-e2be-40a3-b3a2-28aea7b02360)
+
 
 ![Screenshot (1255)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/8f081455-0a4c-4e90-ba65-6d9217387123)
 
