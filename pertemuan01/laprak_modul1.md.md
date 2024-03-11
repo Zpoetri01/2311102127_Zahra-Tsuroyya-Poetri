@@ -1,5 +1,5 @@
 # <h1 align="center">Laporan Praktikum Modul Tipe Data</h1>
-<p align="center">Arvinanto Bahtiar</p>
+<p align="center">Zahra Tsuroyya Poetri - 2311102127</p>
 
 ## Dasar Teori
 
@@ -344,5 +344,5 @@ Perbedaan Array dengan Map:
 Tipe data C++ merupakan elemen penting yang digunakan pada suatu program agar berjalan sesuai dengan keinginan. Pada pembelajaran kali ini, dapat mempelajari 3 tipe data, yaitu tipe data primitif dengan contoh interger, float, karakter, dan boolean, tipe data abstrak dengan contoh class dan struct, dan tipe data koleksi dengan contoh array, vector, dan map. Setiap tipe data memiliki kegunaannya masing masing yang memiliki perbedaan dan beberapa kesamaan. 
 
 ## Referensi
-[1] W, Yogga Pratama. (2020). Materi Analysis Data. Bandar Lampung: Universitas Mitra Indonesia
-[2] Sindar, Anita. (2019). Struktur Data Dan Algoritma Dengan C++. CV.AA.Rizky
+[1] W, Yogga Pratama. (2020). Materi Analysis Data. Bandar Lampung: Universitas Mitra Indonesia<br/>
+[2] Sindar, Anita. (2019). Struktur Data Dan Algoritma Dengan C++. CV.AA.Rizky<br/>
