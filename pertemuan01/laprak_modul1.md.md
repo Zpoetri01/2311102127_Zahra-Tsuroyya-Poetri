@@ -42,8 +42,7 @@ int main()
     case '/':
         if (num2_127 != 0)
         {
-            cout << "Result: " << fixed << setprecision(2) << num1_127 / num2_127; // program akan menampilkan hasil dari pembagian num1 & num2
-   dengan hasil apabila bilangan desimal tetap akan ditampilkan dengan dua angka dibelakang koma     
+            cout << "Result: " << fixed << setprecision(2) << num1_127 / num2_127; // program akan menampilkan hasil dari pembagian num1 & num2 dengan hasil apabila bilangan desimal tetap akan ditampilkan dengan dua angka dibelakang koma     
         }
         else
         {
