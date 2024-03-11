@@ -7,10 +7,10 @@ Tipe data adalah jenis data yang akan disimpan di dalam suatu variabel untuk men
 
 1. Tipe Data Primitif
    Tipe data primitif adalah tipe data dasar pada pemrograman yang hanya mampu menyimpan satu nilai pada setiap satu variabel. Contoh tipe data primitif, yaitu:
-   # Interger (int), merupakan tipe data bilangan bulat.
-   # Float merupakan tipe data bilangan desimal.
-   # Karakter (char), merupakan tipe data yang menyimpan hanya satu digit karakter.
-   # Boolean (bool), merupakan tipe data logika yang hanya bernilai true dan false.
+   #### Interger (int), merupakan tipe data bilangan bulat.
+   #### Float merupakan tipe data bilangan desimal.
+   #### Karakter (char), merupakan tipe data yang menyimpan hanya satu digit karakter.
+   #### Boolean (bool), merupakan tipe data logika yang hanya bernilai true dan false.
    
 3. Tipe Data Abstrak
    Tipe data abstrak atau yang biasa disebut Abstract Data Type (ADT) merupakan model matematika yang merujuk pada sejumlah bentuk struktur data yang memiliki kegunaan atau perilaku yang serupa, atau suatu tipe data dari suatu bahasa pemrograman yang memiliki sematik yang serupa.
