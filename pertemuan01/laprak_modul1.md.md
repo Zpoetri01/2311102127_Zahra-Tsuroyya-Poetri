@@ -126,7 +126,7 @@ Kode di atas digunakan untuk mencetak dari sebuah array. Program tersebut mengin
 
 ## Unguided 
 
-### 1. [Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!]
+### 1. Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!
 
 ```C++
 #include <iostream> 
@@ -184,10 +184,132 @@ int main() {
 Kode di atas digunakan untuk menampilkan program konversi suhu. Program tersebut memiliki 2 pilihan yaitu konversi celcius ke fahrenheit dan konversi fahrenheit ke celcius. Pengguna akan memasukkan suhu jika sudah memilih diantara 2 pilihan tersebut. Hasil dari program akan menampilkan suhu yang telah dikonversikan.
 
 Kesimpulan Tipe Data Primitif:
+Tipe data primitif merupakan tipe data yang sudah tersedia dari sistem untuk menyimpan nilai-nilai dasar seperti bilangan bulat, bilangan desimal, karakter, dan boolean, tergantung pada penggunaan. 
 
+### 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya!
 
-### 2. [Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya!]
+A. Fungsi Class 
+Class digunakan untuk menciptakan suatu instance dari objek dimana terdiri dari sekumpulan objek dengan kesamaan data / properti / atribut , fungsi / behavior / method dan hubungan ke objek lain.
 
+B. Fungsi Struct 
+Struct digunakan untuk menjadikan seperti sebuah tabel yang mendeklarasikan elemen di dalam variabel yang diberikan.
+
+C. Contoh Program Class
+```C++
+#include <iostream> // untuk mendefinisikan operator input dan output
+#include <string> // untuk mendefinisikan string
+using namespace std;
+
+// Deklarasi kelas Mahasiswa
+class Mahasiswa {
+private:
+    string nim_127;
+    string nama_127;
+    float nilai_127;
+
+public:
+    // Konstruktor
+    Mahasiswa(string n, string nm, float nl) {
+        nim_127 = n;
+        nama_127 = nm;
+        nilai_127 = nl;
+    }
+
+    // Fungsi untuk menampilkan data mahasiswa
+    void tampilkanData() {
+        cout << "NIM    : " << nim_127 << endl;
+        cout << "Nama   : " << nama_127 << endl;
+        cout << "Nilai  : " << nilai_127 << endl;
+    }
+};
+
+int main() {
+    // Membuat objek dari kelas Mahasiswa
+    Mahasiswa mhs("2311102127", "Zahra Tsuroyya Poetri", 85.5);
+
+    // Menampilkan data mahasiswa
+    mhs.tampilkanData();
+
+    return 0; // Mengembalikan nilai ke nol
+}
+```
+#### Output:
+![Screenshot (1259)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/f6ec3a8c-e579-497f-b0f3-6853fc0bb4f2)
+
+Kode di atas merupakan contoh program class untuk membuat objek dari kelas mahasiswa yang berisikan nim, nama, dan nilai. Lalu program akan menampilkan data dari kelas mahasiswa tersebut. 
+
+D. Contoh Program Struct
+```C+
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Deklarasi struktur Laptop
+struct Laptop {
+    string nama_127;
+    int layar_127;
+    int ram_127;
+};
+
+// Deklarasi fungsi dataLaptop yang menerima objek Laptop sebagai parameter
+void dataLaptop(const Laptop& laptop) {
+    cout << "Nama Laptop : " << laptop.nama_127 << endl;
+    cout << "Layar       : " << laptop.layar_127 << " Inch" << endl;
+    cout << "RAM         : " << laptop.ram_127 << " GB" << endl;
+}
+
+int main() {
+    // Membuat objek dari struktur Laptop
+    Laptop laptop;
+
+    // Mengisi data laptop
+    laptop.nama_127 = "Lenovo Thinkpad T480s";
+    laptop.layar_127 = 14; 
+    laptop.ram_127 = 16;   
+
+    // Menampilkan data laptop
+    cout << "Data Laptop" << endl;
+    dataLaptop(laptop);
+
+    return 0; // Mengembalikan nilai ke nol
+}
+```
+#### Output: 
+![Screenshot (1265)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/a84b72b3-6ec1-451e-ae8b-9863398dc7d1)
+
+### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map!
+
+```C++
+#include <iostream>
+#include <map>
+#include <string>
+using namespace std;
+
+int main() {
+    // Membuat map untuk menyimpan umur anak-anak desa
+    map<string, int> umurAnakDesa_127;
+
+    // Memasukkan data umur anak-anak desa ke dalam map
+    umurAnakDesa_127["Amanda"] = 10;
+    umurAnakDesa_127["Naya"] = 8;
+    umurAnakDesa_127["Shafa"] = 9;
+    umurAnakDesa_127["Santoso"] = 7;
+    umurAnakDesa_127["Ian"] = 6;
+
+    // Menampilkan umur anak-anak desa menggunakan fungsi map
+    cout << "Umur anak-anak desa:" << endl;
+    for (const auto& elemen : umurAnakDesa_127) {
+        cout << elemen.first << ": " << elemen.second << " tahun" << endl;
+    }
+
+    return 0; // Mengembalikan nilai ke nol
+}
+```
+
+#### Output: 
+![Screenshot (1267)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/970f92a1-a0b6-4545-baef-3a18b3040301)
+
+Kode di atas merupakan program menyinmpan umur anak-anak desa menggunakan fungsi map. Terdapat 5 umur anak-anak desa di dalam fungsi map yang dapat dideklarasikan dengan perulangan for.
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
