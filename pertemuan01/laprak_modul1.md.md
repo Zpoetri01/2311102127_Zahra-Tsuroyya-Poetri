@@ -331,14 +331,14 @@ Kode di atas merupakan program menyimpan umur anak-anak desa menggunakan fungsi 
 
 Perbedaan Array dengan Map: 
     1. Tipe Data 
-       Array menggunakan tipe data primitif.
-       Map menggunakan tipe data bebas.
+       - Array menggunakan tipe data primitif.
+       - Map menggunakan tipe data bebas.
     2. Ukuran
-       Ukuran array biasanya tetap dan harus ditentukan saat pembuatan array.
-       Tidak ada batasan dalam map, biasanya dapat diperluas atau dikurangi sesuai kebutuhan.
+       - Ukuran array biasanya tetap dan harus ditentukan saat pembuatan array.
+       - Tidak ada batasan dalam map, biasanya dapat diperluas atau dikurangi sesuai kebutuhan.
     3. Akses Data 
-       Array menggunakan indeks numerik untuk mengakses elemen-elemen didalamnya.
-       Elemen pada map diakses menggunakan key yang terkait dengan setiap nilai key.
+       - Array menggunakan indeks numerik untuk mengakses elemen-elemen didalamnya.
+       - Elemen pada map diakses menggunakan key yang terkait dengan setiap nilai key.
         
 ## Kesimpulan
 Tipe data C++ merupakan elemen penting yang digunakan pada suatu program agar berjalan sesuai dengan keinginan. Pada pembelajaran kali ini, dapat mempelajari 3 tipe data, yaitu tipe data primitif dengan contoh interger, float, karakter, dan boolean, tipe data abstrak dengan contoh class dan struct, dan tipe data koleksi dengan contoh array, vector, dan map. Setiap tipe data memiliki kegunaannya masing masing yang memiliki perbedaan dan beberapa kesamaan. 
