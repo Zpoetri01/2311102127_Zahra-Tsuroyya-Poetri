@@ -19,9 +19,9 @@ Tipe data adalah jenis data yang akan disimpan di dalam suatu variabel untuk men
    Tipe data koleksi adalah suatu jenis atau tipe data yang digunakan untuk menghimpun kumpulan data, atau data yang berjumlah lebih dari satu. Tipe 
 data koleksi memungkinkan Anda menyimpan, mengelola, dan mengakses sejumlah 
 besar data dengan cara yang terstruktur. Ada beberapa tipe koleksi yang digunakan, sebagai berikut:
-#### Array : struktur data statis yang menyimpan elemen-elemen dengan tipe data yang sama.
-#### Vector : kemampuan untuk menyimpan data dalam bentuk elemen-elemen yang alokasi memorinya dilakukan otomatis dan bersebelahan.
-#### Map : terasa mirip dengan array namun dengan index yang memungkinkan untuk berupa tipe data selain integer. Pada map, indeks tersebut diberi nama “key”.
+- Array : struktur data statis yang menyimpan elemen-elemen dengan tipe data yang sama.<br/>
+- Vector : kemampuan untuk menyimpan data dalam bentuk elemen-elemen yang alokasi memorinya dilakukan otomatis dan bersebelahan.<br/>
+- Map : terasa mirip dengan array namun dengan index yang memungkinkan untuk berupa tipe data selain integer. Pada map, indeks tersebut diberi nama “key”.<br/>
 
 ## Guided 
 
