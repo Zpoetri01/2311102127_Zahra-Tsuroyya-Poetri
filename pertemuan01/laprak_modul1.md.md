@@ -10,39 +10,39 @@ Berikan penjelasan teori terkait materi modul ini dengan bahasa anda sendiri ser
 ### 1. [Tipe Data Primitif]
 
 ```C++
-#include <iostream> // untuk menjalankan operasi input dan output
-#include <iomanip> // untuk mengontrol format output data 
-using namespace std; // agar cout dan cin tidak memerlukan std::
+#include <iostream> // Untuk menjalankan operasi input dan output
+#include <iomanip> // Untuk mengontrol format output data 
+using namespace std; // Agar cout dan cin tidak memerlukan std::
 int main() 
 {
-    char op_zahra; // mendeklarasikan variabel 'op' dengan tipe data char 
-    float num1_127, num2_127; // mendeklarasikan variabel 'num1' & 'num2' dengan tipe data float
-    // pengguna dapat menginputkan operator
+    char op_zahra; // Mendeklarasikan variabel 'op' dengan tipe data char 
+    float num1_127, num2_127; // Mendeklarasikan variabel 'num1' & 'num2' dengan tipe data float
+    // Pengguna dapat menginputkan operator
     cout << "Enter operator (+, -, *, /): ";
     cin >> op_zahra;
-    // pengguna dapat menginputkan dua operand 
+    // Pengguna dapat menginputkan dua operand 
     cout << "Enter two operands: ";
-    cin >> num1 >> num2;
+    cin >> num1_127 >> num2_127;
     // Menggunakan statement switch 
     switch (op_zahra)
     {
-    // jika pengguna memasukkan +
+    // Jika pengguna memasukkan +
     case '+':
-        cout << "Result: " << num1_127 + num2_127; // program akan menampilkan hasil dari penjumlahan num1 & num2
+        cout << "Result: " << num1_127 + num2_127; // Program akan menampilkan hasil dari penjumlahan num1 & num2
         break; 
-    // jika pengguna memasukkan -
+    // Jika pengguna memasukkan -
     case '-':
-        cout << "Result: " << num1_127 - num2_127; // program akan menampilkan hasil dari pengurangan num1 & num2
+        cout << "Result: " << num1_127 - num2_127; // Program akan menampilkan hasil dari pengurangan num1 & num2
         break;
-    // jika pengguna memasukkan *
+    // Jika pengguna memasukkan *
     case '*':
-        cout << "Result: " << num1_127 * num2_127; // program akan menampilkan hasil dari perkalian num1 & num2
+        cout << "Result: " << num1_127 * num2_127; // Program akan menampilkan hasil dari perkalian num1 & num2
         break;
-    // jika pengguna memasukkan /
+    // Jika pengguna memasukkan /
     case '/':
         if (num2_127 != 0)
         {
-            cout << "Result: " << fixed << setprecision(2) << num1_127 / num2_127; // program akan menampilkan hasil dari pembagian num1 & num2 dengan hasil apabila bilangan desimal tetap akan ditampilkan dengan dua angka dibelakang koma     
+            cout << "Result: " << fixed << setprecision(2) << num1_127 / num2_127; // Program akan menampilkan hasil dari pembagian num1 & num2 dengan hasil apabila bilangan desimal tetap akan ditampilkan dengan dua angka dibelakang koma     
         }
         else
         {
@@ -54,7 +54,7 @@ int main()
     default:
         cout << "Error! Operator is not correct";
     } // statement switch selesai
-    return 0; mengembalikan nilai ke nol 
+    return 0; // mengembalikan nilai ke nol 
 }
 ```
 Kode di atas adalah program yang menjalankan perhitungan saat pengguna memasukkan operator penambahan, pengurangan, perkalian atau pembagian. Program tersebut menggunakan tipe data primitif 'char' dan 'float'.
@@ -177,7 +177,8 @@ int main() {
 }
 ```
 #### Output:
-![Screenshot (1254)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/7ca31cb3-1707-441e-90f1-a9bea2117855)
+![image](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/0ef52f30-dcae-4752-8b9a-4ad9cb31351c)
+
 ![Screenshot (1255)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/8f081455-0a4c-4e90-ba65-6d9217387123)
 
 
