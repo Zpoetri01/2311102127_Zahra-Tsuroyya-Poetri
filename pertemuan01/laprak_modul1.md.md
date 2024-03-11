@@ -3,7 +3,26 @@
 
 ## Dasar Teori
 
-Berikan penjelasan teori terkait materi modul ini dengan bahasa anda sendiri serta susunan yang terstruktur per topiknya.
+Tipe data adalah jenis data yang akan disimpan di dalam suatu variabel untuk menjalankan sebuah program. Berikut tipe data yang dipelajari:
+
+1. Tipe Data Primitif
+   Tipe data primitif adalah tipe data dasar pada pemrograman yang hanya mampu menyimpan satu nilai pada setiap satu variabel. Contoh tipe data primitif, yaitu:
+   Interger (int), merupakan tipe data bilangan bulat.
+   Float merupakan tipe data bilangan desimal.
+   Karakter (char), merupakan tipe data yang menyimpan hanya satu digit karakter.
+   Boolean (bool), merupakan tipe data logika yang hanya bernilai true dan false.
+   
+2. Tipe Data Abstrak
+   Tipe data abstrak atau yang biasa disebut Abstract Data Type (ADT) merupakan model matematika yang merujuk pada sejumlah bentuk struktur data yang memiliki kegunaan atau perilaku yang serupa, atau suatu tipe data dari suatu bahasa pemrograman yang memiliki sematik yang serupa.
+   
+3. Tipe Data Koleksi
+   Tipe data koleksi adalah suatu jenis atau tipe data yang digunakan untuk menghimpun kumpulan data, atau data yang berjumlah lebih dari satu. Tipe 
+data koleksi memungkinkan Anda menyimpan, mengelola, dan mengakses sejumlah 
+besar data dengan cara yang terstruktur. Ada beberapa tipe koleksi yang digunakan, sebagai berikut:
+Array : struktur data statis yang menyimpan elemen-elemen dengan tipe data yang sama.
+Vector : kemampuan untuk menyimpan data dalam bentuk elemen-elemen yang alokasi memorinya dilakukan otomatis dan bersebelahan.
+Map terasa mirip dengan array namun dengan index yang memungkinkan 
+untuk berupa tipe data selain integer. Pada map, indeks tersebut diberi nama “key”.
 
 ## Guided 
 
@@ -309,10 +328,22 @@ int main() {
 #### Output: 
 ![Screenshot (1267)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/970f92a1-a0b6-4545-baef-3a18b3040301)
 
-Kode di atas merupakan program menyinmpan umur anak-anak desa menggunakan fungsi map. Terdapat 5 umur anak-anak desa di dalam fungsi map yang dapat dideklarasikan dengan perulangan for.
+Kode di atas merupakan program menyimpan umur anak-anak desa menggunakan fungsi map. Terdapat 5 umur anak-anak desa di dalam fungsi map yang dapat dideklarasikan dengan perulangan for.
 
+Perbedaan Array dengan Map
+    1. Tipe Data 
+        ~ Array menggunakan tipe data primitif.
+        ~ Map menggunakan tipe data bebas.
+    2. Ukuran 
+        ~ Ukuran array biasanya tetap dan harus ditentukan saat pembuatan array.
+        ~ Tidak ada batasan dalam map, biasanya dapat diperluas atau dikurangi sesuai kebutuhan.
+    3. Akses Data 
+        ~ Array menggunakan indeks numerik untuk mengakses elemen-elemen didalamnya.
+        ~ Elemen pada map diakses menggunakan key yang terkait dengan setiap nilai key.
+        
 ## Kesimpulan
-Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
+Tipe data C++ merupakan elemen penting yang digunakan pada suatu program agar berjalan sesuai dengan keinginan. Pada pembelajaran kali ini, dapat mempelajari 3 tipe data, yaitu tipe data primitif dengan contoh interger, float, karakter, dan boolean, tipe data abstrak dengan contoh class dan struct, dan tipe data koleksi dengan contoh array, vector, dan map. Setiap tipe data memiliki kegunaannya masing masing yang memiliki perbedaan dan beberapa kesamaan. 
 
 ## Referensi
-[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+[1] W, Yogga Pratama. (2020). Materi Analysis Data. Bandar Lampung: Universitas Mitra Indonesia
+[2] Sindar, Anita. (2019). Struktur Data Dan Algoritma Dengan C++. CV.AA.Rizky
