@@ -178,12 +178,16 @@ int main() {
 ```
 #### Output:
 ![Screenshot (1264)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/6ec64f1f-e2be-40a3-b3a2-28aea7b02360)
-
-
 ![Screenshot (1255)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/8f081455-0a4c-4e90-ba65-6d9217387123)
 
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Kode di atas digunakan untuk menampilkan program konversi suhu. Program tersebut memiliki 2 pilihan yaitu konversi celcius ke fahrenheit dan konversi fahrenheit ke celcius. Pengguna akan memasukkan suhu jika sudah memilih diantara 2 pilihan tersebut. Hasil dari program akan menampilkan suhu yang telah dikonversikan.
+
+Kesimpulan Tipe Data Primitif:
+
+
+### 2. [Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya!]
+
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
