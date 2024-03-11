@@ -331,10 +331,10 @@ Kode di atas merupakan program menyimpan umur anak-anak desa menggunakan fungsi 
 
 Perbedaan Array dengan Map: 
     1. Tipe Data<br/>
-       - Array menggunakan tipe data primitif.<br/>      
+       - Array menggunakan tipe data primitif.<br/>
        - Map menggunakan tipe data bebas.<br/>     
     2. Ukuran<br/>
-       - Ukuran array biasanya tetap dan harus ditentukan saat pembuatan array.<br/>   
+       - Ukuran array biasanya tetap dan harus ditentukan saat pembuatan array.<br/>
        - Tidak ada batasan dalam map, biasanya dapat diperluas atau dikurangi sesuai kebutuhan.<br/>   
     3. Akses Data<br/>
        - Array menggunakan indeks numerik untuk mengakses elemen-elemen didalamnya.<br/>
