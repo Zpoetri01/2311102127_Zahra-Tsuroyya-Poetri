@@ -57,7 +57,7 @@ int main()
     return 0; mengembalikan nilai ke nol 
 }
 ```
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Kode di atas adalah program yang menjalankan perhitungan saat pengguna memasukkan operator penambahan, pengurangan, perkalian atau pembagian. Program tersebut menggunakan tipe data primitif 'char' dan 'float'.
 
 ## Unguided 
 
