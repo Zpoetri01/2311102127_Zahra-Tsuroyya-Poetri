@@ -61,7 +61,9 @@ Kode di atas adalah program yang menjalankan perhitungan saat pengguna memasukka
 
 ## Unguided 
 
-### 1. [Soal]
+### 1. [Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. 
+Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari 
+materi tipe data primitif!]
 
 ```C++
 #include <iostream>
