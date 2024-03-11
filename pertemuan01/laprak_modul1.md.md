@@ -25,7 +25,7 @@ besar data dengan cara yang terstruktur. Ada beberapa tipe koleksi yang digunaka
 
 ## Guided 
 
-### 1. [Tipe Data Primitif]
+### 1. Tipe Data Primitif
 
 ```C++
 #include <iostream> // Untuk menjalankan operasi input dan output
@@ -77,7 +77,7 @@ int main()
 ```
 Kode di atas adalah program yang menjalankan perhitungan saat pengguna memasukkan operator penambahan, pengurangan, perkalian atau pembagian. Program tersebut menggunakan tipe data primitif 'char' dan 'float'.
 
-### 2. [Tipe Data Abstrak]
+### 2. Tipe Data Abstrak
 
 ```C++
 #include <stdio.h> // mendefiniskan fungsi standar input dan output yaitu printf
@@ -114,7 +114,7 @@ int main()
 ```
 Kode di atas digunakan untuk sebuah program yang menjalankan fungsi struct dengan variabel yang berupa 'Mahasiswa'. Hasil dari program tersebut akan menampilkan nama, alamat, dan umur mahasiswa yang tersimpan didalam fungsi strcpy.
 
-### 3. [Tipe Data Koleksi]
+### 3. Tipe Data Koleksi
 
 ```C++
 #include <iostream> // untuk menjalankan operasi input dan output 
