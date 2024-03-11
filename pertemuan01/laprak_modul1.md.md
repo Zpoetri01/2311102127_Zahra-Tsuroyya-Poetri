@@ -73,7 +73,7 @@ struct Mahasiswa_127_zahra // deklarasi struct dengan variabel 'Mahasiswa_127_za
 };
 int main()
 {
-    struct Mahasiswa_127_zahra mhs1_127, mhs2_127; // mendeklarasikan dua variabel Mahasiswa_127_zahra dengan nama mhs1_127 dan mhs2_127
+    struct Mahasiswa_127_zahra mhs1, mhs2; // mendeklarasikan dua variabel Mahasiswa_127_zahra dengan nama mhs1 dan mhs2
     strcpy(mhs1.name_zahra, "Dian");
     strcpy (mhs1.address_zahra, "Mataram");              // menggunakan fungsi strcpy
     mhs1.age_zahra = 22;                            
@@ -94,20 +94,86 @@ int main()
     return 0; // mengembalikan nilai ke nol
 }
 ```
+Kode di atas digunakan untuk sebuah program yang menjalankan fungsi struct dengan variabel yang berupa 'Mahasiswa'. Hasil dari program tersebut akan menampilkan nama, alamat, dan umur mahasiswa yang tersimpan didalam fungsi strcpy.
+
+### 3. [Tipe Data Koleksi]
+
+```C++
+#include <iostream> // untuk menjalankan operasi input dan output 
+#include <array> // untuk mendefinisikan fungsi array 
+using namespace std; // agar cout dan cin tidak memerlukan std::
+
+int main() {
+// Deklarasi dan inisialisasi array
+    int nilai_127[5];
+    nilai_127[0] = 23;
+    nilai_127[1] = 50;
+    nilai_127[2] = 34;
+    nilai_127[3] = 78;
+    nilai_127[4] = 90;
+    
+    // Mencetak array dengan tab
+    cout << "Isi array pertama : " << nilai_127[0] << endl;
+    cout << "Isi array kedua : " << nilai_127[1] << endl;
+    cout << "Isi array ketiga : " << nilai_127[2] << endl;
+    cout << "Isi array keempat : " << nilai_127[3] << endl;
+    cout << "Isi array kelima : " << nilai_127[4] << endl;
+
+    return 0; // mengembalikan nilai ke nol
+}
+```
+Kode di atas digunakan untuk mencetak dari sebuah array. Program tersebut menginisialisasikan nilai ke dalam array yang terdapat 5 nilai yaitu 23, 50, 34, 78, dan 90. 
 
 ## Unguided 
 
-### 1. [Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. 
-Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari 
-materi tipe data primitif!]
+### 1. [Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!]
 
 ```C++
-#include <iostream>
+#include <iostream> 
 using namespace std;
 
+// Fungsi untuk mengonversi suhu dari Celcius ke Fahrenheit
+float KonvCtoF (float C_127) {
+    return (C_127 * 9/5) + 32;
+}
+
+// Fungsi untuk mengonversi suhu dari Fahrenheit ke Celcius
+float KonvFtoC (float F_127) {
+    return (F_127 - 32) * 5/9;
+}
+
 int main() {
-    cout << "ini adalah file code unguided praktikan" << endl;
-    return 0;
+    float suhu_127;
+    int pilih_127;
+
+     // Menampilkan menu program konversi suhu
+    cout << "Program Konversi Suhu" << endl;
+    cout << "1. Konversi Celcius ke Fahrenheit" << endl;
+    cout << "2. Konversi Fahrenheit ke Celcius" << endl;
+    cout << "Pilih: ";
+    cin >> pilih_127;
+
+    // Memilih case sesuai dengan pilihan pengguna
+    switch (pilih_127) {
+        case 1: 
+            // Meminta suhu dalam Celcius dari pengguna
+            cout << "Masukkan suhu dalam Celcius : ";
+            cin >> suhu_127;
+            // Menampilkan hasil konversi dari Celcius ke Fahrenheit
+            cout << "Suhu dalam Fahrenheit : " << KonvCtoF(suhu_127) << endl;
+            break;
+        case 2:
+            // Meminta suhu dalam Fahrenheit dari pengguna
+            cout << "Masukkan suhu dalam Fahrenheit : ";
+            cin >> suhu_127;
+            // Menampilkan hasil konversi dari Fahrenheit ke Celcius
+            cout << "Suhu dalam Celcius : " << KonvFtoC(suhu_127) << endl;
+            break;
+        default: 
+            // Menampilkan pesan kesalahan jika pilihan tidak valid
+            cout << "Pilihan tidak valid!" << endl;
+    }
+    return 0; // Mengembalikan nilai ke nol
 }
 ```
 #### Output:
