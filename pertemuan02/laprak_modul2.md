@@ -36,71 +36,93 @@ using namespace std;
     }
     cout << endl;
     // Tampilan array
-    for (int x = 0; x < 2; x++)
-{
-for (int y = 0; y < 3; y++)
-{
-for (int z = 0; z < 3; z++)
-{
-cout << arr[x][y][z] << ends;
+    for (int x = 0; x < 2; x++) {
+        for (int y = 0; y < 3; y++) {
+            for (int z = 0; z < 3; z++) {
+                cout << arr[x][y][z] << endl;
+            }
+            cout << endl;
+        }
+        cout << endl;
+    }
 }
-cout << endl;
-}
-cout << endl;
-}
-}
-
 ```
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
+Kode di atas merupakan program input array 3 dimensi dengan elemen x,y,z untuk menghasilkan tampilan array menjadi 2 matriks 3 bari dan 3 kolom.
 
 ### 2. Program Mencari Nilai Maksimal pada Array
 
 ```C++
 #include <iostream>
 using namespace std;
-int main()
-{
-int maks, a, i = 1, lokasi;
-cout << "Masukkan panjang array: ";
-cin >> a;
-int array[a];
-cout << "Masukkan " << a << " angka\n";
-for (i = 0; i < a; i++)
-{
-cout << "Array ke-" << (i) << ": ";
-cin >> array[i];
-}
-maks = array[0];
-for (i = 0; i < a; i++)
-{
-if (array[i] > maks)
-{
-maks = array[i];
-lokasi = i;
-}
-}
-cout << "Nilai maksimum adalah " << maks << " berada di Array ke " << lokasi << endl;
-}
+
+int main() {
+    int maks, a, i = 1, lokasi;
+    cout << "Masukkan panjang array: ";
+    cin >> a;
+    int array[a];
+    cout << "Masukkan " << a << " angka\n"; // Menampilkan pesan meminta pengguna untuk memasukkan angka sejumlah panjang array yang diinginkan 
+    for (i = 0; i < a; i++) {
+        cout << "Array ke-" << (i) << ": ";// Menampilkan pesan meminta pengguna menginputk nilai array ke-i
+        cin >> array[i];
+    }
+    maks = array[0];
+    for (i = 0; i < a; i++) {
+        if (array[i] > maks) {
+        maks = array[i];
+        lokasi = i;
+        }
+    }
+    cout << "Nilai maksimum adalah " << maks << " berada di Array ke " << lokasi << endl; // Menampilkan nilai maksimum dan lokasinya
+    }
 ```
+Kode di atas merupakan program mencari nilai maksimal pada array yang sesusai dengan yang keinginan user. Hasil akan menunjukkan nilai maksimum yang sudah diinputkan oleh user dari beberapa angka tadi [i].
 
 ## Unguided 
 
-### 1. [Soal]
+### 1. Buatlah program untuk menampilkan Output seperti berikut dengan data yang diinputkan oleh user!
 
 ```C++
-#include <iostream>
+// Oleh Zahra Tsuroyya Poetri - 2311102127
+#include <iostream> 
 using namespace std;
 
 int main() {
-    cout << "ini adalah file code unguided praktikan" << endl;
+    // Mendefinisikan array dengan nama dataArray_127 yang berisi 10 elemen bilangan bulat
+    int dataArray_127[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+    // Mencetak elemen-elemen array dataArray_127
+    cout << "Data Array : ";
+    for (int i = 0; i < 10; ++i) {
+        cout << dataArray_127[i] << " ";
+    }
+    cout << endl;
+
+    // Mencetak nomor genap dari array dataArray_127
+    cout << "Nomor Genap : ";
+    for (int i = 0; i < 10; ++i) {
+        if (dataArray_127[i] % 2 == 0) {
+            cout << dataArray_127[i] << ", ";
+        }
+    }
+    cout << endl;
+
+    // Mencetak nomor ganjil dari array dataArray_127
+    cout << "Nomor Ganjil : ";
+    for (int i = 0; i < 10; ++i) {
+        if (dataArray_127[i] % 2 != 0) {
+            cout << dataArray_127[i] << ", ";
+        }
+    }
+    cout << endl;
+
     return 0;
 }
+
 ```
 #### Output:
-![240302_00h00m06s_screenshot](https://github.com/suxeno/Struktur-Data-Assignment/assets/111122086/6d1727a8-fb77-4ecf-81ff-5de9386686b7)
+![Screenshot (1280)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/35bc1673-5bce-47c4-af2b-3b051244bde2)
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
-
+Kode di atas merupakan program yang digunakan untuk menampilkan output seperti data yang sesuai dengan keinginan user. 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
 
