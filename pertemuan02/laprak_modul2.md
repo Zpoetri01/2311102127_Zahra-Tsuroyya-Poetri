@@ -81,6 +81,7 @@ lokasi = i;
 }
 cout << "Nilai maksimum adalah " << maks << " berada di Array ke " << lokasi << endl;
 }
+```
 
 ## Unguided 
 
