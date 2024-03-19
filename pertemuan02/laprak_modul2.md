@@ -176,7 +176,8 @@ int main() {
 #### Output: 
 
 ![Screenshot (1284)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/10314df1-428d-4443-a3cf-b771510ff5bf)
-![Screenshot (1284)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/0c377a7c-c249-45d6-8f9a-7642af9a1616)
+![Screenshot (1285)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/d1eab782-2403-4e1e-985f-8a2abea5e0f6)
+
 
 Kode di atas merupakan program input array tiga dimensi yang dapat diinputkan jumlah atau ukuran elemennya [2][3][3] sesuai yang diiginkan user.
 
@@ -236,7 +237,7 @@ int main() {
 Kode di atas merupakan menu untuk mencari nilai minimum, nilai maksimum dan nilai rata rata menggunakan array. User dapat menginputkan nilai yang akan di inisialisasi oleh array dan menampilkan hasil. 
 
 ## Kesimpulan
-
+Pada praktikum kali ini mempelajari materi array yang digunakan pada pemrograman C++. Array adalah suatu struktur yang terdiri dari sejumlah elemen yang memiliki tipe data yang sama. Elemen-elemen array tersusun secara sekuensial dalam memori komputer. Semua elemem array bertipe sama. Di Array terbagi menjadi beberapa bentuk yaitu array satu dimensi, array dua dimensi dan array multi dimensi. Array menjadi bagian struktur data sederhana yang dapat menghasilkan pemrograman menjadi lebih tepat.
 
 ## Referensi
 [1] Pratama, Muhammad A. 2020. “STRUKTUR DATA ARRAY DUA DIMENSI PADA PEMROGRAMAN C++.” OSF Preprints. <br/>
