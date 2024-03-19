@@ -237,7 +237,7 @@ int main() {
 Kode di atas merupakan menu untuk mencari nilai minimum, nilai maksimum dan nilai rata rata menggunakan array. User dapat menginputkan nilai yang akan di inisialisasi oleh array dan menampilkan hasil. 
 
 ## Kesimpulan
-Pada praktikum kali ini mempelajari materi array yang digunakan pada pemrograman C++. Array adalah suatu struktur yang terdiri dari sejumlah elemen yang memiliki tipe data yang sama. Elemen-elemen array tersusun secara sekuensial dalam memori komputer. Semua elemem array bertipe sama. Di Array terbagi menjadi beberapa bentuk yaitu array satu dimensi, array dua dimensi dan array multi dimensi. Array menjadi bagian struktur data sederhana yang dapat menghasilkan pemrograman menjadi lebih tepat.
+Pada praktikum kali ini mempelajari materi array yang digunakan pada pemrograman C++. Array adalah suatu struktur yang terdiri dari sejumlah elemen yang memiliki tipe data yang sama. Elemen-elemen array tersusun secara sekuensial dalam memori komputer. Semua elemem array bertipe sama. Di Array terbagi menjadi beberapa bentuk yaitu array satu dimensi, array dua dimensi dan array multi dimensi yang memiliki kegunaan masing-masing sesuai pada apa yang kita butuhkan. Array menjadi bagian struktur data sederhana yang dapat menghasilkan pemrograman menjadi lebih tepat.
 
 ## Referensi
 [1] Pratama, Muhammad A. 2020. “STRUKTUR DATA ARRAY DUA DIMENSI PADA PEMROGRAMAN C++.” OSF Preprints. <br/>
