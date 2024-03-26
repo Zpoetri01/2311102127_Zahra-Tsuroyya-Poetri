@@ -313,8 +313,6 @@ int main()
 ```
 Kode di atas merupakan program single list non-circular yang digunakan untuk menampilkan list nilai sesuai posisi yang dimasukkan oleh pengguna pada fungsi int main. Di kode tersebut pengguna menginginkan output nilai dengan posisi insertDepan, insertBelakang, insertTengah, hapusDepan, hapusBelakang, hapusBelakang, ubahDepan, ubahBelakang, dan ubahTengah. Jadi, nilai dapat berpindah-pindah, dihapus, bahkan diubah sesuai posisi yang diinginkan pengguna.
 
-## Guided
-
 ### 2. Double Linked List
 
 ```C++
@@ -498,6 +496,11 @@ Yusuke           19 <br/>
 Akechi           20 <br/>
 Hoshino          18 <br/>
 Karin            18 <br/>
+b. Hapus data Akechi <br/>
+c. Tambahkan data berikut diantara John dan Jane : Futaba 18 <br/>
+d. Tambahkan data berikut diawal : Igor 20 <br/>
+e. Ubah data Michael menjadi : Reyn 18 <br/>
+f. Tampilkan seluruh data <br/>
 ```C++
 #include <iostream>
 using namespace std;
@@ -713,9 +716,33 @@ int main() {
 ![Screenshot (1323)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/f0196ad1-d43d-42cc-9be9-c906943f0889)
 ![Screenshot (1324)](https://github.com/Zpoetri01/2311102127_Zahra-Tsuroyya-Poetri/assets/162399144/4b9a78cf-3244-4c85-a526-7b6de6f3d03a)
 
+Kode di atas merupakan program single linke list untuk memasukkan data sesuai urutan berdasarkan nama dan usia. Pada program tersebut pengguna dapat menambahkan, menghapus, dan mengubah data diri tersebut sesuai perintah. 
 
+### 2. Program Double Linked List
+Modifikasi Guided Double Linked List dilakukan dengan penambahan operasi untuk menambah data, menghapus, dan update di tengah / diurutan tertentu yang diminta. Selain itu, buatlah agar tampilannya menampilkan Nama produk dan harga. <br/>
+Nama Produk, Harga <br/>
+Originote, 60.000 <br/>
+Somethinc, 150.000 <br/>
+Skintific, 100.000 <br/>
+Wardah, 50.000 <br/>
+Hanasui, 30.000 <br/>
+Case: <br/>
+1. Tambahkan produk Azarine dengan harga 65000 diantara<br/>
+Somethinc dan Skintific<br/>
+2. Hapus produk wardah<br/>
+3. Update produk Hanasui menjadi Cleora dengan harga 55.000<br/>
+4. Tampilkan menu seperti dibawah ini<br/>
+Toko Skincare Purwokerto<br/>
+1. Tambah Data<br/>
+2. Hapus Data<br/>
+3. Update Data<br/>
+4. Tambah Data Urutan Tertentu<br/>
+5. Hapus Data Urutan Tertentu<br/>
+6. Hapus Seluruh Data<br/>
+7. Tampilkan Data<br/>
+8. Exit<br/>
+Pada menu 7, tampilan akhirnya akan menjadi seperti dibawah ini :<br/>
 
-Kode di atas digunakan untuk mencetak teks "ini adalah file code guided praktikan" ke layar menggunakan function cout untuk mengeksekusi nya.
 
 ## Kesimpulan
 Ringkasan dan interpretasi pandangan kalia dari hasil praktikum dan pembelajaran yang didapat[1].
