@@ -1061,7 +1061,7 @@ int main() {
 Kode di atas merupakan program double linked list yang digunakan untuk memuat data pada toko skincare purwokerto. Data pada awal mula ada merupakan produk skincare originote, somethinc, skintific, wardah, dan hanasui, lalu menambahkan data yaitu produk azarine diantara data produk somethinc dan produk skintific. Setelah itu, menghapus data produk pada posisi data ke 5 yaitu produk wardah. Kemudian update data juga dilakukan, dengan data lama produk hanasui diubah menjadi produk cleora. Data produk sudah disesuaikan perintah, jika ingin melihat tampilan data maka memilih nomor 7 pada menu, dan bagian terakhir untuk keluar, dapat memilih menu nomor 8.
 
 ## Kesimpulan
-Setelah praktikum dapat membantu praktika memahami materi single linked list dan double linked list, dan memecahkan cara membuat kode program yang dilakukan untuk menjawab soal atau perintah. Materi kali ini lebih banyak dari biasanya jika diimplementasikan pada kode program. Untuk itu, harus lebih teliti sebagai praktikan. 
+Setelah praktikum dapat membantu praktikan memahami materi single linked list dan double linked list, serta melakukan cara membuat kode program yang dilakukan untuk menjawab soal atau perintah. Materi kali ini lebih banyak dari biasanya jika diimplementasikan pada kode program. Untuk itu, harus lebih teliti sebagai praktikan. 
 ## Referensi
 [1] Putra, Agung k. 2019. “List Linier(linked List) Dan Variasinya_struktur Data.” OSF Preprints. osf.io/preprints/osf/tjnfa
 [2] Yulianti, Meyka. 2019. “Struktur Data_double Linked List Circular.” OSF Preprints. osf.io/preprints/osf/2nhs5
