@@ -4,7 +4,7 @@
 ## Dasar Teori
 
 #### 1. Single Linked List
-adalah salah satu cara untuk menyimpan sekumpulan elemen. Sama halnya dengan array, elemen yang disimpan dapat berupa karakter atau integer. Masing-masing elemen dalam linked list disimpan dalam bentuk sebuah node. Node adalah gabungan dua sub-elemen atau komponen; Bagian data yang menyimpan elemen dan bagian next yang menyimpan link ke node selanjutnya. Linked list terbentuk saat terdapat banyak node yang saling tertaut dan membentuk sebuah rantai. Setiap node menunjuk pada node selanjutnya sesuai urutan. Node pertama yang selalu digunakan sebagai referensi saat melakukan traversing pada list  disebut HEAD. Node terakhir akan menunjuk ke NULL. Linked list dapat diimplementasikan menggunakan struktur dan pointer.
+adalah salah satu cara untuk menyimpan sekumpulan elemen. Sama halnya dengan array, elemen yang disimpan dapat berupa karakter atau integer. Masing-masing elemen dalam linked list disimpan dalam bentuk sebuah node. Node adalah gabungan dua sub-elemen atau komponen; Bagian data yang menyimpan elemen dan bagian next yang menyimpan link ke node selanjutnya. Linked list terbentuk saat terdapat banyak node yang saling tertaut dan membentuk sebuah rantai. Setiap node menunjuk pada node selanjutnya sesuai urutan. Node pertama yang selalu digunakan sebagai referensi saat melakukan traversing pada list  disebut Head. Node terakhir akan menunjuk ke Null. Linked list dapat diimplementasikan menggunakan struktur dan pointer.
 
 #### 2. Double Linked List
 Double Linked List Circular adalah linked list dengan menggunakan pointer, dimana setiap node memiliki 3 field, yaitu:<br/>
