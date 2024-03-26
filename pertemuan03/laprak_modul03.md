@@ -494,21 +494,22 @@ Kode di atas merupakan program double linked list yang digunakan untuk menampilk
 
 ### 1. Program Single Linked List
 Buatlah program menu Single Linked List Non-Circular untuk menyimpan Nama dan usia mahasiswa, dengan menggunakan inputan dari user. Lakukan operasi berikut: <br/>
-a. Masukkan data sesuai urutan berikut. (Gunakan insert depan, belakang atau tengah). Data pertama yang dimasukkan adalah
-nama dan usia anda. <br/>
-[Nama_anda] [Usia_anda] <br/>
-John             19 <br/>
-Jane             20 <br/>
-Michael          18 <br/>
-Yusuke           19 <br/>
-Akechi           20 <br/>
-Hoshino          18 <br/>
-Karin            18 <br/>
-b. Hapus data Akechi <br/>
-c. Tambahkan data berikut diantara John dan Jane : Futaba 18 <br/>
-d. Tambahkan data berikut diawal : Igor 20 <br/>
-e. Ubah data Michael menjadi : Reyn 18 <br/>
-f. Tampilkan seluruh data <br/>
+###### a. Masukkan data sesuai urutan berikut. (Gunakan insert depan, belakang atau tengah). Data pertama yang dimasukkan adalah
+###### nama dan usia anda. <br/>
+###### [Nama_anda] [Usia_anda] <br/>
+###### John             19 <br/>
+###### Jane             20 <br/>
+###### Michael          18 <br/>
+###### Yusuke           19 <br/>
+###### Akechi           20 <br/>
+###### Hoshino          18 <br/>
+###### Karin            18 <br/>
+###### b. Hapus data Akechi <br/>
+###### c. Tambahkan data berikut diantara John dan Jane : Futaba 18 <br/>
+###### d. Tambahkan data berikut diawal : Igor 20 <br/>
+###### e. Ubah data Michael menjadi : Reyn 18 <br/>
+###### f. Tampilkan seluruh data <br/>
+
 ```C++
 #include <iostream>
 using namespace std;
