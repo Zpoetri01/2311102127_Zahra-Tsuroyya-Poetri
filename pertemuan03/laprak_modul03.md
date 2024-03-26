@@ -726,16 +726,17 @@ Somethinc, 150.000 <br/>
 Skintific, 100.000 <br/>
 Wardah, 50.000 <br/>
 Hanasui, 30.000 <br/>
+
 Case: <br/>
 1. Tambahkan produk Azarine dengan harga 65000 diantara<br/>
 Somethinc dan Skintific<br/>
 2. Hapus produk wardah<br/>
 3. Update produk Hanasui menjadi Cleora dengan harga 55.000<br/>
 4. Tampilkan menu seperti dibawah ini<br/>
-Toko Skincare Purwokerto<br/>
-1. Tambah Data<br/>
-2. Hapus Data<br/>
-3. Update Data<br/>
+###### Toko Skincare Purwokerto<br/>
+###### 1. Tambah Data<br/>
+###### 2. Hapus Data<br/>
+###### 3. Update Data<br/>
 4. Tambah Data Urutan Tertentu<br/>
 5. Hapus Data Urutan Tertentu<br/>
 6. Hapus Seluruh Data<br/>
